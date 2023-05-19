@@ -1,0 +1,9 @@
+yfinance #pip install yfinance
+Ta-Lib #conda install -c conda-forge ta-lib
+trading-calendars #pip install trading-calendars
+exchange-calendars #pip install exchange-calendars
+python-binance #pip install python-binance
+stockstats
+fracdiff
+
+optuna #conda install -c conda-forge optuna

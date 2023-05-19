@@ -1,0 +1,35 @@
+TODO by the end of the month:
+- Make the code run
+- Train the agents myself (dont consider overfitting right now)
+- Do a basic hyperparameter optimization
+- Add more possible actions (short and long continuous amount)
+- Add more features (order book data)
+- Incorporate feature importance
+- See if it can train better
+- Address the problem of overfitting as in the paper.
+
+
+
+
+
+
+
+Notes:
+
+-> EASY just download
+	0_dl_trainval_data.py Downloads the train and validation data according to config_main.py -> EASY just download
+	0_dl_trade_data.py Downloads the trade data according to config_main.py
+
+-> Train and optimize parameters of each strategy
+	1_optimize_cpcv.py Optimizes hyperparameters with a Combinatorial Purged Cross-validation scheme
+	1_optimize_kcv.py Optimizes hyperparameters with a K-Fold Cross-validation scheme
+	1_optimize_wf.py Optimizes hyperparameters with a Walk-forward validation scheme
+	
+-> BABA
+	2_validate.py Shows insights about the training and validation process (select a results folder from train_results)
+	
+-> BABA
+	4_backtestpy Backtests trained DRL agents (enter multiple results folders from train_results in a list)
+
+-> BABA
+	5_pbo.py Computes PBO for trained DRL agents (enter multiple results folders from train_results in a list)
